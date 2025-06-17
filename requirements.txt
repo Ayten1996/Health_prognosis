@@ -1,7 +1,7 @@
+tensorflow
+keras
 streamlit
 pandas
 numpy
 scikit-learn
-tensorflow
 joblib
-keras

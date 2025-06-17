@@ -1,10 +1,9 @@
 import streamlit as st
 import pandas as pd
-from tensorflow.keras.models import load_model
 import joblib
 
 
-model = load_model('model.h5')
+model = joblib.load('model.pkl')
 le_group = joblib.load('le_group.pkl')
 le_cat = joblib.load('le_cat.pkl')
 
